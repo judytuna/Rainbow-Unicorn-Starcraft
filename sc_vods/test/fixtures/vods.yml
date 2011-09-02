@@ -1,9 +1,0 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  url: MyString
-  is_tournament: false
-
-two:
-  url: MyString
-  is_tournament: false
