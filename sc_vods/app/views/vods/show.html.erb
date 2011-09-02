@@ -1,0 +1,13 @@
+<p>
+  <b>Url:</b>
+  <%=h @vod.url %>
+</p>
+
+<p>
+  <b>Is tournament:</b>
+  <%=h @vod.is_tournament %>
+</p>
+
+
+<%= link_to 'Edit', edit_vod_path(@vod) %> |
+<%= link_to 'Back', vods_path %>

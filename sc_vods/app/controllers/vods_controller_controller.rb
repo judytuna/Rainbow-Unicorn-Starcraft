@@ -1,0 +1,2 @@
+class VodsControllerController < ApplicationController
+end
