@@ -7,4 +7,8 @@ class Game < ActiveRecord::Base
 
   validates_presence_of :player1_id, :player2_id, :map, :game_length, :vod_url
 
+  belongs_to :player
+
+  default_scope :order => 'created_at DESC'
+
 end

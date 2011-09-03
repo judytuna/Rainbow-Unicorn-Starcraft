@@ -5,4 +5,6 @@ class Player < ActiveRecord::Base
   
   attr_accessible :name, :race, :team, :is_korean
 
+  has_many :games
+
 end
