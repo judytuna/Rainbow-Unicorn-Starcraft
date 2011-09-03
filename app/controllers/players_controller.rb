@@ -14,6 +14,7 @@ class PlayersController < ApplicationController
   # GET /players/1.xml
   def show
     @player = Player.find(params[:id])
+    @title = CGI.escapeHTML(@player.name)
 
     respond_to do |format|
       format.html # show.html.erb
