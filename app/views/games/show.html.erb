@@ -1,0 +1,28 @@
+<p>
+  <b>Player1:</b>
+  <%=h @game.player1_id %>
+</p>
+
+<p>
+  <b>Player2:</b>
+  <%=h @game.player2_id %>
+</p>
+
+<p>
+  <b>Map:</b>
+  <%=h @game.map %>
+</p>
+
+<p>
+  <b>Game length:</b>
+  <%=h @game.game_length %>
+</p>
+
+<p>
+  <b>Vod url:</b>
+  <%=h @game.vod_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_game_path(@game) %> |
+<%= link_to 'Back', games_path %>

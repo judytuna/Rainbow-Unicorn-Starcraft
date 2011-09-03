@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  player1_id: 1
+  player2_id: 1
+  map: MyString
+  game_length: MyString
+  vod_url: MyString
+
+two:
+  player1_id: 1
+  player2_id: 1
+  map: MyString
+  game_length: MyString
+  vod_url: MyString

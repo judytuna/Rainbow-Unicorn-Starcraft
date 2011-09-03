@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%=h @player.name %>
+</p>
+
+<p>
+  <b>Race:</b>
+  <%=h @player.race %>
+</p>
+
+<p>
+  <b>Team:</b>
+  <%=h @player.team %>
+</p>
+
+<p>
+  <b>Is korean:</b>
+  <%=h @player.is_korean %>
+</p>
+
+
+<%= link_to 'Edit', edit_player_path(@player) %> |
+<%= link_to 'Back', players_path %>

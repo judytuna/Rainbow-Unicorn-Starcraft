@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  race: MyString
+  team: MyString
+  is_korean: false
+
+two:
+  name: MyString
+  race: MyString
+  team: MyString
+  is_korean: false
